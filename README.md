@@ -38,6 +38,7 @@ public class CategoriaController { }
 No arquivo `application.properties`, configure as credenciais:
 
 spring.datasource.url=jdbc:postgresql://localhost:5432/postgres
+
 spring.datasource.username=app_user
 spring.datasource.password=senha123
 
