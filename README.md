@@ -38,8 +38,8 @@ public class CategoriaController { }
 No arquivo `application.properties`, configure as credenciais:
 
 spring.datasource.url=jdbc:postgresql://localhost:5432/postgres
-spring.datasource.username=seu_usuario
-spring.datasource.password=sua_senha
+spring.datasource.username=app_user
+spring.datasource.password=senha123
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
